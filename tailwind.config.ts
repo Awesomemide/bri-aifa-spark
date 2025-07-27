@@ -22,11 +22,10 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-hero': 'var(--gradient-hero)',
 			},
-			boxShadow: {
-				'glow-primary': 'var(--glow-primary)',
-				'glow-accent': 'var(--glow-accent)',
-			},
 			colors: {
+				'british-red': 'hsl(var(--british-red))',
+				'british-blue': 'hsl(var(--british-blue))',
+				'community-orange': 'hsl(var(--community-orange))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

@@ -1,51 +1,62 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="py-12 bg-card border-t border-border">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-md shadow-glow-primary"></div>
-              <span className="text-xl font-bold">BriAIFA</span>
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center font-bold text-white text-lg">
+                B
+              </div>
+              <div className="flex flex-col">
+                <span className="text-xl font-bold">BritAIFA</span>
+                <span className="text-xs text-muted-foreground">AI Filmmaking for All</span>
+              </div>
             </div>
-            <p className="text-muted-foreground">
-              Commercial-grade Visual Generative AI with 100% licensed datasets.
+            <p className="text-muted-foreground text-sm">
+              Empowering British youth through AI filmmaking skills and opportunities.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Company Limited by Guarantee No. 16595866<br />
+              England & Wales
             </p>
           </div>
           
           <div className="space-y-4">
-            <h4 className="font-semibold">Products</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Text-to-Image</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Image Editing</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Background Removal</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">API Access</a></li>
+            <h4 className="font-semibold">Programmes</h4>
+            <ul className="space-y-2 text-muted-foreground text-sm">
+              <li><Link to="/programmes" className="hover:text-foreground transition-colors">Future Filmmakers Competition</Link></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">AI Summer Camps</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">School Partnerships</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Apprenticeships</a></li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h4 className="font-semibold">Company</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#about" className="hover:text-foreground transition-colors">About</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#contact" className="hover:text-foreground transition-colors">Contact</a></li>
+            <h4 className="font-semibold">Get Involved</h4>
+            <ul className="space-y-2 text-muted-foreground text-sm">
+              <li><Link to="/partner" className="hover:text-foreground transition-colors">Partner with Us</Link></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Volunteer</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Mentorship</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Funding</a></li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h4 className="font-semibold">Legal</h4>
-            <ul className="space-y-2 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">License</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Compliance</a></li>
-            </ul>
+            <h4 className="font-semibold">Contact</h4>
+            <div className="space-y-2 text-muted-foreground text-sm">
+              <p>Studio 1D, 3-5 Latona Road<br />London, SE15 6RY</p>
+              <p>info@britaifa.org.uk</p>
+              <p>+44 (0)7404 352 815</p>
+            </div>
           </div>
         </div>
         
-        <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 BriAIFA. All rights reserved.</p>
+        <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm">
+          <p>&copy; 2024 BritAI Filmmakers Amalgamated Ltd. All rights reserved.</p>
+          <p className="mt-2">Charity Status: CIO registration pending</p>
         </div>
       </div>
     </footer>
