@@ -21,6 +21,8 @@ export default {
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-accent': 'linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)))',
+				'gradient-warm': 'linear-gradient(135deg, hsl(var(--community-orange)), hsl(var(--secondary)))',
 			},
 			colors: {
 				'british-red': 'hsl(var(--british-red))',
