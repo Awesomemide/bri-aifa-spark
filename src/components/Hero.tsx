@@ -18,9 +18,9 @@ const Hero = () => {
               </div>
               
               <h1 className="text-4xl lg:text-7xl font-bold leading-tight">
-                Unlocking the Future of
-                <span className="bg-gradient-primary bg-clip-text text-transparent block mt-2"> Storytelling </span>
-                Through AI
+                We Want To Help <span className="bg-gradient-primary bg-clip-text text-transparent">YOU</span> Unlock
+                <span className="bg-gradient-primary bg-clip-text text-transparent block mt-2"> Visual Storytelling </span>
+                With Artificial Intelligence Tools
               </h1>
               
               <p className="text-xl lg:text-2xl text-foreground/80 font-semibold">
