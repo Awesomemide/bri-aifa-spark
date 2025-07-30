@@ -7,13 +7,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center font-bold text-white text-lg">
-                B
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-bold">BritAIFA</span>
-                <span className="text-xs text-muted-foreground">AI Filmmaking for All</span>
-              </div>
+              <img 
+                src="/lovable-uploads/8b5495b1-d8aa-46c8-be62-b82324bbbdb6.png" 
+                alt="BritAIFA Logo" 
+                className="h-12 w-auto"
+              />
             </div>
             <p className="text-muted-foreground text-sm">
               Empowering British youth through AI filmmaking skills and opportunities.
