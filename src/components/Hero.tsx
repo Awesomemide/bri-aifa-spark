@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Users, Award } from "lucide-react";
 import heroImage from "@/assets/hero-youth-filmmakers.jpg";
-
 const Hero = () => {
-  return (
-    <section className="pt-32 pb-20 bg-gradient-to-br from-background via-secondary/30 to-accent/20 relative overflow-hidden">
+  return <section className="pt-32 pb-20 bg-gradient-to-br from-background via-secondary/30 to-accent/20 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-warm opacity-10"></div>
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-accent/10 rounded-full blur-3xl"></div>
@@ -63,22 +61,13 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-accent rounded-3xl blur-3xl opacity-30 scale-110 animate-pulse"></div>
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/20 rounded-full blur-2xl"></div>
             <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-accent/20 rounded-full blur-2xl"></div>
-            <img 
-              src={heroImage} 
-              alt="Diverse young British filmmakers using AI technology"
-              className="relative rounded-3xl shadow-2xl border border-border/30"
-            />
+            <img src={heroImage} alt="Diverse young British filmmakers using AI technology" className="relative rounded-3xl shadow-2xl border border-border/30" />
             <div className="absolute inset-0 bg-gradient-to-br from-black/20 to-transparent rounded-3xl flex items-center justify-center">
-              <Button size="lg" variant="ghost" className="bg-white/20 backdrop-blur-lg hover:bg-white/30 border border-white/20 shadow-xl">
-                <Play className="w-6 h-6 mr-2" />
-                Watch Our Story
-              </Button>
+              
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

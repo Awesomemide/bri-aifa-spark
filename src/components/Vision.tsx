@@ -1,9 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, Heart, MapPin, Target } from "lucide-react";
-
 const Vision = () => {
-  return (
-    <section className="py-20 bg-gradient-to-br from-accent/5 via-primary/5 to-secondary/20 relative">
+  return <section className="py-20 bg-gradient-to-br from-accent/5 via-primary/5 to-secondary/20 relative">
       <div className="absolute inset-0 bg-gradient-warm opacity-5"></div>
       <div className="container mx-auto px-6 relative">
         <div className="text-center mb-16">
@@ -80,15 +78,11 @@ const Vision = () => {
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12"></div>
           <div className="relative">
-            <blockquote className="text-2xl lg:text-3xl italic mb-6 leading-relaxed font-medium">
-              "The next Spielberg might be a girl with a laptop and the right tools in Peckham, Glasgow, Cardiff or Londonderry."
-            </blockquote>
+            <blockquote className="text-2xl lg:text-3xl italic mb-6 leading-relaxed font-medium">"The next Steven Spielberg might be a girl with a laptop and the right tools in London, Glasgow, Cardiff and Belfast"</blockquote>
             <cite className="text-lg font-bold opacity-90">– Gbola Oba, Founder</cite>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Vision;
