@@ -42,12 +42,12 @@ const Partner = () => {
 
   const testimonials = [
     {
-      quote: "BritAIFA is democratising creativity—making film accessible for all.",
-      author: "British Film Institute"
+      quote: "BritAIFA is democratising creativity-making filmmaking accessible for all.",
+      author: "AI Varsity"
     },
     {
       quote: "We're proud to support their AI tech hubs for the next generation of filmmakers.",
-      author: "Nvidia UK"
+      author: "AIFA worldwide, USA"
     }
   ];
 
