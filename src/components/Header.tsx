@@ -14,13 +14,11 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center font-bold text-white text-lg">
-              B
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-foreground">BritAIFA</span>
-              <span className="text-xs text-muted-foreground hidden sm:block">British AI Filmmakers Amalgamated</span>
-            </div>
+            <img 
+              src="/lovable-uploads/8b5495b1-d8aa-46c8-be62-b82324bbbdb6.png" 
+              alt="BritAIFA Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
           
           <nav className="hidden md:flex items-center space-x-8">
