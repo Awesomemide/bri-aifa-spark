@@ -129,9 +129,17 @@ const Programmes = () => {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <CardDescription className="text-base">{initiative.description}</CardDescription>
-                    <Button variant="outline" className="group/btn">
-                      {initiative.action}
-                      <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                    <Button asChild variant="outline" className="group/btn">
+                      <a href={
+                        initiative.action === "Apply Now" ? "mailto:info@britafa.org.uk" :
+                        initiative.action === "Meet Mentors" ? "https://wa.link/3uv6vt" :
+                        initiative.action === "Host a Workshop" ? "https://wa.link/3uv6vt" :
+                        initiative.action === "Join the Hub" ? "https://wa.link/3uv6vt" :
+                        "https://wa.link/3uv6vt"
+                      } target="_blank" rel="noopener noreferrer">
+                        {initiative.action}
+                        <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -159,9 +167,14 @@ const Programmes = () => {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <CardDescription className="text-sm">{pathway.description}</CardDescription>
-                    <Button size="sm" variant="outline" className="group/btn">
-                      {pathway.action}
-                      <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                    <Button asChild size="sm" variant="outline" className="group/btn">
+                      <a href={
+                        pathway.action === "Partner with Us" ? "https://wa.link/3uv6vt" :
+                        "https://wa.link/3uv6vt"
+                      } target="_blank" rel="noopener noreferrer">
+                        {pathway.action}
+                        <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -189,9 +202,15 @@ const Programmes = () => {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <CardDescription className="text-base">{track.description}</CardDescription>
-                    <Button size="sm" variant="outline" className="group/btn">
-                      {track.action}
-                      <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                    <Button asChild size="sm" variant="outline" className="group/btn">
+                      <a href={
+                        track.action === "Apply Here" ? "mailto:info@britafa.org.uk" :
+                        track.action === "Learn More" ? "/programmes" :
+                        "https://wa.link/3uv6vt"
+                      } target={track.action === "Learn More" ? "_self" : "_blank"} rel="noopener noreferrer">
+                        {track.action}
+                        <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
@@ -206,11 +225,15 @@ const Programmes = () => {
               Join hundreds of young filmmakers already transforming their futures through AI technology.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="secondary">
-                Apply for Programmes
+              <Button asChild size="lg" variant="secondary">
+                <a href="mailto:info@britafa.org.uk" target="_blank" rel="noopener noreferrer">
+                  Apply for Programmes
+                </a>
               </Button>
-              <Button size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
-                Download Brochure
+              <Button asChild size="lg" variant="outline" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+                <a href="https://wa.link/3uv6vt" target="_blank" rel="noopener noreferrer">
+                  Download Brochure
+                </a>
               </Button>
             </div>
           </section>
