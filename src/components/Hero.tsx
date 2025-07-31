@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, Users, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-youth-filmmakers.jpg";
 const Hero = () => {
   return <section className="pt-32 pb-20 bg-gradient-to-br from-background via-secondary/30 to-accent/20 relative overflow-hidden">
@@ -32,9 +33,11 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="hero" className="group shadow-xl hover:shadow-2xl transition-all">
-                Explore Programmes
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <Button asChild size="lg" variant="hero" className="group shadow-xl hover:shadow-2xl transition-all">
+                <Link to="/programmes">
+                  Explore Programmes
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-2 hover:bg-accent/10">
                 Partner with Us
