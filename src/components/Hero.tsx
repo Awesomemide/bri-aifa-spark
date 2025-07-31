@@ -39,8 +39,10 @@ const Hero = () => {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="border-2 hover:bg-accent/10">
-                Partner with Us
+              <Button asChild size="lg" variant="outline" className="border-2 hover:bg-accent/10">
+                <a href="https://wa.link/3uv6vt" target="_blank" rel="noopener noreferrer">
+                  Partner with Us
+                </a>
               </Button>
             </div>
             
