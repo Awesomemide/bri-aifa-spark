@@ -36,9 +36,9 @@ const Footer = () => {
             <h4 className="font-semibold">Get Involved</h4>
             <ul className="space-y-2 text-muted-foreground text-sm">
               <li><Link to="/partner" className="hover:text-foreground transition-colors">Partner with Us</Link></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Volunteer</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Mentorship</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Funding</a></li>
+              <li><a href="mailto:info@britaifa.org.uk" className="hover:text-foreground transition-colors">Volunteer</a></li>
+              <li><a href="mailto:info@britaifa.org.uk" className="hover:text-foreground transition-colors">Mentorship</a></li>
+              <li><a href="mailto:info@britaifa.org.uk" className="hover:text-foreground transition-colors">Funding</a></li>
             </ul>
           </div>
           
