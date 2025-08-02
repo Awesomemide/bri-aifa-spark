@@ -43,8 +43,12 @@ const Header = () => {
           </nav>
           
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline">Get Involved</Button>
-            <Button variant="hero">Apply Now</Button>
+            <Button asChild variant="outline">
+              <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">Get Involved</a>
+            </Button>
+            <Button asChild variant="hero">
+              <a href="mailto:info@briaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
+            </Button>
           </div>
 
           <button
@@ -80,8 +84,12 @@ const Header = () => {
                 Partner & Fund
               </Link>
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline">Get Involved</Button>
-                <Button variant="hero">Apply Now</Button>
+                <Button asChild variant="outline">
+                  <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">Get Involved</a>
+                </Button>
+                <Button asChild variant="hero">
+                  <a href="mailto:info@briaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                </Button>
               </div>
             </nav>
           </div>
