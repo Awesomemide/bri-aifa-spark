@@ -131,7 +131,7 @@ const Programmes = () => {
                     <CardDescription className="text-base">{initiative.description}</CardDescription>
                     <Button asChild variant="outline" className="group/btn">
                       <a href={
-                        initiative.action === "Apply Now" ? "mailto:info@britafa.org.uk" :
+                        initiative.action === "Apply Now" ? "mailto:info@britaifa.org.uk" :
                         initiative.action === "Meet Mentors" ? "https://wa.link/3uv6vt" :
                         initiative.action === "Host a Workshop" ? "https://wa.link/3uv6vt" :
                         initiative.action === "Join the Hub" ? "https://wa.link/3uv6vt" :
@@ -204,7 +204,7 @@ const Programmes = () => {
                     <CardDescription className="text-base">{track.description}</CardDescription>
                     <Button asChild size="sm" variant="outline" className="group/btn">
                       <a href={
-                        track.action === "Apply Here" ? "mailto:info@britafa.org.uk" :
+                        track.action === "Apply Here" ? "mailto:info@britaifa.org.uk" :
                         track.action === "Learn More" ? "/programmes" :
                         "https://wa.link/3uv6vt"
                       } target={track.action === "Learn More" ? "_self" : "_blank"} rel="noopener noreferrer">
@@ -226,7 +226,7 @@ const Programmes = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" variant="secondary">
-                <a href="mailto:info@britafa.org.uk" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:info@britaifa.org.uk" target="_blank" rel="noopener noreferrer">
                   Apply for Programmes
                 </a>
               </Button>
