@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Building, Users, MapPin, Zap, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 const About = () => {
   const goals = [{
     target: "200+",
@@ -132,7 +133,9 @@ const About = () => {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </Button>
-              <Button variant="outline">Learn More</Button>
+              <Button asChild variant="outline">
+                <Link to="/programmes">Learn More</Link>
+              </Button>
             </div>
           </div>
         </div>
