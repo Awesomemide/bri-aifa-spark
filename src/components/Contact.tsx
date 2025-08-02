@@ -89,8 +89,10 @@ const Contact = () => {
                 />
               </div>
               
-              <Button variant="hero" className="w-full">
-                Send Message
+              <Button asChild variant="hero" className="w-full">
+                <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">
+                  Contact Us
+                </a>
               </Button>
             </CardContent>
           </Card>
