@@ -126,9 +126,11 @@ const About = () => {
               <p className="text-muted-foreground">Charity Status: CIO registration pending.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 mt-6">
-              <Button variant="hero" className="group">
-                Contact Us
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              <Button asChild variant="hero" className="group">
+                <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">
+                  Contact Us
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
               <Button variant="outline">Learn More</Button>
             </div>
