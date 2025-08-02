@@ -132,10 +132,10 @@ const Programmes = () => {
                     <Button asChild variant="outline" className="group/btn">
                       <a href={
                         initiative.action === "Apply Now" ? "mailto:info@britaifa.org.uk" :
-                        initiative.action === "Meet Mentors" ? "https://wa.link/3uv6vt" :
-                        initiative.action === "Host a Workshop" ? "https://wa.link/3uv6vt" :
-                        initiative.action === "Join the Hub" ? "https://wa.link/3uv6vt" :
-                        "https://wa.link/3uv6vt"
+                        initiative.action === "Meet Mentors" ? "https://wa.link/britaifa" :
+                        initiative.action === "Host a Workshop" ? "https://wa.link/britaifa" :
+                        initiative.action === "Join the Hub" ? "https://wa.link/britaifa" :
+                        "https://wa.link/britaifa"
                       } target="_blank" rel="noopener noreferrer">
                         {initiative.action}
                         <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
