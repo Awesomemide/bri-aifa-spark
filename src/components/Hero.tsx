@@ -40,7 +40,7 @@ const Hero = () => {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-2 hover:bg-accent/10">
-                <a href="https://wa.link/3uv6vt" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">
                   Partner with Us
                 </a>
               </Button>

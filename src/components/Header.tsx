@@ -47,7 +47,7 @@ const Header = () => {
               <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">Get Involved</a>
             </Button>
             <Button asChild variant="hero">
-              <a href="mailto:info@briaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
+              <a href="mailto:info@britaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
             </Button>
           </div>
 
@@ -88,7 +88,7 @@ const Header = () => {
                   <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">Get Involved</a>
                 </Button>
                 <Button asChild variant="hero">
-                  <a href="mailto:info@briaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
+                  <a href="mailto:info@britaifa.org.uk" target="_blank" rel="noopener noreferrer">Apply Now</a>
                 </Button>
               </div>
             </nav>
