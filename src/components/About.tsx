@@ -1,33 +1,25 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Building, Users, MapPin, Zap, ArrowRight } from "lucide-react";
-
 const About = () => {
-  const goals = [
-    {
-      target: "200+",
-      description: "Youths trained & certified (Pearson-Edexcel accredited)",
-      detail: "10% mentored into self-employment or start-ups"
-    },
-    {
-      target: "30+",
-      description: "Alumni AI Short Films",
-      detail: "Festival-ready quality productions"
-    },
-    {
-      target: "£50,000+",
-      description: "Equipment Grants",
-      detail: "Supporting upcoming filmmakers"
-    },
-    {
-      target: "15+",
-      description: "Strategic Partnerships",
-      detail: "Across all four UK nations"
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-gradient-to-br from-secondary/20 to-background relative">
+  const goals = [{
+    target: "200+",
+    description: "Youths trained & certified (Pearson-Edexcel accredited)",
+    detail: "10% mentored into self-employment or start-ups"
+  }, {
+    target: "30+",
+    description: "Alumni AI Short Films",
+    detail: "Festival-ready quality productions"
+  }, {
+    target: "£50,000+",
+    description: "Equipment Grants",
+    detail: "Supporting upcoming filmmakers"
+  }, {
+    target: "15+",
+    description: "Strategic Partnerships",
+    detail: "Across all four UK nations"
+  }];
+  return <section className="py-20 bg-gradient-to-br from-secondary/20 to-background relative">
       <div className="absolute inset-0 bg-gradient-warm opacity-5"></div>
       <div className="container mx-auto px-6 relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
@@ -52,7 +44,7 @@ const About = () => {
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
                   <Users className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-foreground leading-relaxed">Empower underserved youth (especially from ethnic minorities) with AI filmmaking skills, tools, and career pathways.</span>
+                <span className="text-foreground leading-relaxed">Empower underserved youth with AI filmmaking skills, tools, and career pathways.</span>
               </div>
               <div className="flex items-start space-x-4 p-4 rounded-2xl bg-accent/5 border border-accent/10">
                 <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center flex-shrink-0">
@@ -64,13 +56,13 @@ const About = () => {
                 <div className="w-10 h-10 bg-community-orange rounded-full flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-foreground leading-relaxed">Proudly based in South East London (Old Kent Road & Peckham), embedded in the heart of the communities we uplift.</span>
+                <span className="text-foreground leading-relaxed">Proudly based in London, embedded in the heart of the communities we uplift.</span>
               </div>
               <div className="flex items-start space-x-4 p-4 rounded-2xl bg-british-blue/5 border border-british-blue/10">
                 <div className="w-10 h-10 bg-british-blue rounded-full flex items-center justify-center flex-shrink-0">
                   <Zap className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-foreground leading-relaxed">Exist to break systemic barriers, delivering inclusive, hands-on tech-creative education that breeds innovation and equity.</span>
+                <span className="text-foreground leading-relaxed">Exists to break systemic barriers, delivering inclusive, hands-on tech-creative education that breeds innovation and equity.</span>
               </div>
             </div>
           </div>
@@ -92,15 +84,15 @@ const About = () => {
             
             <div className="grid grid-cols-1 gap-6">
               <div className="bg-gradient-to-br from-british-red/10 to-british-red/5 border border-british-red/20 rounded-2xl p-6 hover:shadow-lg transition-all">
-                <h4 className="font-bold text-british-red mb-3 text-lg">Representation gaps</h4>
+                <h4 className="font-bold text-british-red mb-3 text-lg">Fill Gaps</h4>
                 <p className="text-muted-foreground leading-relaxed">in the creative industries</p>
               </div>
               <div className="bg-gradient-to-br from-community-orange/10 to-community-orange/5 border border-community-orange/20 rounded-2xl p-6 hover:shadow-lg transition-all">
-                <h4 className="font-bold text-community-orange mb-3 text-lg">Digital inequality</h4>
+                <h4 className="font-bold text-community-orange mb-3 text-lg">Digital Equality</h4>
                 <p className="text-muted-foreground leading-relaxed">in low-income and minority communities</p>
               </div>
               <div className="bg-gradient-to-br from-british-blue/10 to-british-blue/5 border border-british-blue/20 rounded-2xl p-6 hover:shadow-lg transition-all">
-                <h4 className="font-bold text-british-blue mb-3 text-lg">Employability gap</h4>
+                <h4 className="font-bold text-british-blue mb-3 text-lg">Employability Gap</h4>
                 <p className="text-muted-foreground leading-relaxed">preparing youth for AI-driven careers</p>
               </div>
             </div>
@@ -113,8 +105,7 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {goals.map((goal, index) => (
-              <Card key={index} className="text-center border-border bg-card hover:shadow-lg transition-all duration-300">
+            {goals.map((goal, index) => <Card key={index} className="text-center border-border bg-card hover:shadow-lg transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="text-3xl font-bold text-primary">{goal.target}</CardTitle>
                   <CardDescription className="text-base font-medium">{goal.description}</CardDescription>
@@ -122,8 +113,7 @@ const About = () => {
                 <CardContent>
                   <p className="text-sm text-muted-foreground">{goal.detail}</p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
 
@@ -145,8 +135,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

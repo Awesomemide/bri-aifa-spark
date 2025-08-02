@@ -25,9 +25,7 @@ const Vision = () => {
               <CardTitle className="text-lg font-bold">VR Direction</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="leading-relaxed">
-                A Black girl, immersed in a VR headset, directs an AI-powered film set with confidence and creativity.
-              </CardDescription>
+              
             </CardContent>
           </Card>
 
@@ -39,9 +37,7 @@ const Vision = () => {
               <CardTitle className="text-lg font-bold">AI VFX Editing</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="leading-relaxed">
-                A white teen, laser-focused, edits breathtaking AI VFX in a buzzing community hub, mastering the future of film.
-              </CardDescription>
+              
             </CardContent>
           </Card>
 
@@ -50,12 +46,10 @@ const Vision = () => {
               <div className="w-20 h-20 bg-british-red rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-300 shadow-lg">
                 <Heart className="w-10 h-10 text-white" />
               </div>
-              <CardTitle className="text-lg font-bold">Film Premiere</CardTitle>
+              <CardTitle className="text-lg font-bold">AI Film Premiere</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="leading-relaxed">
-                A South Asian boy, confident and proud, premieres his AI-generated short film to an engaged audience.
-              </CardDescription>
+              
             </CardContent>
           </Card>
 
@@ -64,12 +58,10 @@ const Vision = () => {
               <div className="w-20 h-20 bg-british-blue rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-all duration-300 shadow-lg">
                 <MapPin className="w-10 h-10 text-white" />
               </div>
-              <CardTitle className="text-lg font-bold">London Showcase</CardTitle>
+              <CardTitle className="text-lg font-bold">AI Film Competition</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="leading-relaxed">
-                A funder, warmly shaking hands with BritAIFA staff at a London showcase, investing in creative futures.
-              </CardDescription>
+              
             </CardContent>
           </Card>
         </div>
@@ -78,7 +70,7 @@ const Vision = () => {
           <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16"></div>
           <div className="absolute bottom-0 left-0 w-24 h-24 bg-white/10 rounded-full -ml-12 -mb-12"></div>
           <div className="relative">
-            <blockquote className="text-2xl lg:text-3xl italic mb-6 leading-relaxed font-medium">"The next Steven Spielberg might be a girl with a laptop and the right tools in London, Glasgow, Cardiff and Belfast"</blockquote>
+            <blockquote className="text-2xl lg:text-3xl italic mb-6 leading-relaxed font-medium">"The next Steven Spielberg might be a girl with a laptop and the right tools in London, Glasgow, Cardiff or Belfast"</blockquote>
             <cite className="text-lg font-bold opacity-90">– Gbola Oba, Founder</cite>
           </div>
         </div>
