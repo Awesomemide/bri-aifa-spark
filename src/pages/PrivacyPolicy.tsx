@@ -236,8 +236,8 @@ const PrivacyPolicy = () => {
               
               <div className="space-y-2 text-muted-foreground">
                 <p>Email: privacy@britaifa.org</p>
-                <p>Address: [Your Organization Address]</p>
-                <p>Phone: [Your Contact Number]</p>
+                <p>Address: Studio 1D, 3-5 Latona Road London, SE15 6RY</p>
+                <p>Phone: +44 (0)7404 352 815</p>
               </div>
             </CardContent>
           </Card>
