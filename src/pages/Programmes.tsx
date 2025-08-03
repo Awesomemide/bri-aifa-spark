@@ -206,7 +206,7 @@ const Programmes = () => {
                       <a href={
                         track.action === "Apply Here" ? "mailto:info@britaifa.org.uk" :
                         track.action === "Learn More" ? "/programmes" :
-                        "https://wa.link/3uv6vt"
+                        "https://wa.link/britaifa"
                       } target={track.action === "Learn More" ? "_self" : "_blank"} rel="noopener noreferrer">
                         {track.action}
                         <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
