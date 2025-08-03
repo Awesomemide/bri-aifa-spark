@@ -169,8 +169,8 @@ const Programmes = () => {
                     <CardDescription className="text-sm">{pathway.description}</CardDescription>
                     <Button asChild size="sm" variant="outline" className="group/btn">
                       <a href={
-                        pathway.action === "Partner with Us" ? "https://wa.link/3uv6vt" :
-                        "https://wa.link/3uv6vt"
+                        pathway.action === "Partner with Us" ? "https://wa.link/britaifa" :
+                        "https://wa.link/britaifa"
                       } target="_blank" rel="noopener noreferrer">
                         {pathway.action}
                         <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
