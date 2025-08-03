@@ -154,9 +154,11 @@ const Partner = () => {
                         </div>
                       ))}
                     </div>
-                    <Button className="mt-4 group" variant="outline">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    <Button className="mt-4 group" variant="outline" asChild>
+                      <a href="https://wa.link/britaifa" target="_blank" rel="noopener noreferrer">
+                        Learn More
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                      </a>
                     </Button>
                   </CardContent>
                 </Card>
