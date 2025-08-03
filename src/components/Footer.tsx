@@ -55,6 +55,11 @@ const Footer = () => {
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm">
           <p>&copy; 2024 BritAI Filmmakers Amalgamated Ltd. All rights reserved.</p>
           <p className="mt-2">Charity Status: CIO registration pending</p>
+          <div className="mt-4">
+            <Link to="/privacy-policy" className="hover:text-foreground transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
