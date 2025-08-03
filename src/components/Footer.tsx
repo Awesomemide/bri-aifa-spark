@@ -26,7 +26,7 @@ const Footer = () => {
             <h4 className="font-semibold">Programmes</h4>
             <ul className="space-y-2 text-muted-foreground text-sm">
               <li><Link to="/programmes" className="hover:text-foreground transition-colors">Future Filmmakers Competition</Link></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">AI Summer Camps</a></li>
+              <li><a href="mailto:info@britaifa.org.uk" className="hover:text-foreground transition-colors">AI Summer Camps</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">School Partnerships</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Apprenticeships</a></li>
             </ul>
