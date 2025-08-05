@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { X, Shield, Cookie } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 
 const PrivacyBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,12 +50,12 @@ const PrivacyBanner = () => {
                 We use cookies and similar technologies to enhance your browsing experience, 
                 analyze site traffic, and personalize content. By continuing to use our website, 
                 you consent to our use of cookies in accordance with our{" "}
-                <a 
-                  href="/privacy-policy" 
+                <Link 
+                  to="/privacy-policy" 
                   className="text-primary hover:underline font-medium"
                 >
                   Privacy Policy
-                </a>.
+                </Link>.
               </p>
             </div>
           </div>
